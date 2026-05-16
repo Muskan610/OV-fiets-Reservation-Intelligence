@@ -1,5 +1,4 @@
-# OV-fiets Reservation Intelligence — Block C & D
-
+# OV-fiets Reservation Intelligence 
 Two ML models built for NS's OV-fiets shared-bike reservation system: a per-user defaulter risk classifier (Block C) and a per-station demand forecast that drives a live employee operations dashboard (Block D).
 
 ---
