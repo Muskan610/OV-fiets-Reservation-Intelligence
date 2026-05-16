@@ -44,6 +44,11 @@ This model runs **per user**, **per reservation**, inside the NS Travel Planner 
 | `ovfiets_defaulter_feature_columns.pkl` | Ordered feature column list |
 | `ovfiets_defaulter_preprocessing_metadata.pkl` | Preprocessing config |
 
+**Figma Prototype** <br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b3f296c-3ad7-4810-ab51-ef2c74448734" width="700">
+</p>
+
 ---
 
 ## Demand Forecast & Operations Dashboard
@@ -124,6 +129,11 @@ The Streamlit dashboard (`Muskan D01 ov_emp_dashboard.py`) gives station operati
 **Re-allocation mechanic:** The fleet is fixed at 100 bikes. The default split is 80 pickup / 20 reservation. Operators can shift bikes from pickup to reservation (but not the reverse — that would strand already-booked reservations). The 60:40 split is the operational floor. The pickup chart and inventory cards update coherently when a new split is previewed or committed.
 
 **Sidebar controls:** station (43 options), simulation date (2024-01-08 to 2024-12-30), hour of day, pool-remaining slider (0–20), weather condition, temperature.
+<br><br>
+**Screenshots for demonstration**
+<img width="1898" height="856" alt="image" src="https://github.com/user-attachments/assets/0035aaa1-c527-463e-afd0-c23aacc7674e" />
+<img width="1907" height="853" alt="image" src="https://github.com/user-attachments/assets/20a81a63-7e91-40d4-aecc-29ba176c4e48" />
+
 
 ---
 
